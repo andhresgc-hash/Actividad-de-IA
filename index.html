@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrés Felipe Garnica Cadena | Desarrollador web junior</title>
+  <meta name="description" content="Portafolio de desarrollo web con HTML, CSS y JavaScript: proyectos, habilidades y contacto.">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ===== CABECERA Y NAVEGACIÓN (fija) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio">Andrés Garnica</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="nav-toggle-text">Menú</span>
+      </button>
+
+      <nav aria-label="Principal">
+        <ul class="nav-list" id="menu-principal">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== INICIO (hero) ===== -->
+    <section class="hero" id="inicio" aria-labelledby="titulo-inicio">
+      <div class="container hero-inner">
+        <h1 id="titulo-inicio">Hola, soy Andrés Garnica. Desarrollo sitios web rápidos, accesibles y fáciles de mantener.</h1>
+        <p class="hero-text">Desarrollador web junior con HTML, CSS y JavaScript. Escribo código limpio y lo pruebo en móvil y escritorio.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-secondary" href="#contacto">Contáctame</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section class="section" id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+      <div class="container about">
+        <div class="avatar" role="img" aria-label="Iniciales de Andrés Felipe Garnica Cadena">AG</div>
+        <div>
+          <h2 id="titulo-sobre-mi">Sobre mí</h2>
+          <p>Soy Andrés Felipe Garnica Cadena, desarrollador web junior que aprende construyendo proyectos reales: tiendas, catálogos y sitios para negocios locales.</p>
+          <p>Busco un equipo donde pueda crecer, recibir revisión de código y aportar interfaces claras. Trabajo con Git y metodología Scrum.</p>
+          <p class="muted">Soacha, Cundinamarca, Colombia · Disponible para trabajo remoto o presencial.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section class="section section-alt" id="proyectos" aria-labelledby="titulo-proyectos">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="titulo-proyectos">Proyectos</h2>
+          <p>Tres proyectos de práctica con su código disponible en GitHub.</p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>FakeStore API</h3>
+            <p>Catálogo de productos que lista artículos, categorías y precios a partir de una API pública de prueba.</p>
+            <ul class="tags" aria-label="Tecnologías">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Fetch API</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="#" rel="noopener">Repositorio</a>
+              <a class="btn btn-secondary" href="#" rel="noopener">Demo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>CampusShop</h3>
+            <p>Tienda virtual para productos universitarios con listado, detalle y diseño adaptable a móvil.</p>
+            <ul class="tags" aria-label="Tecnologías">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="#" rel="noopener">Repositorio</a>
+              <a class="btn btn-secondary" href="#" rel="noopener">Demo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Café Verde</h3>
+            <p>Sitio para un restaurante con carta, ubicación y horarios, pensado para leerse rápido desde el celular.</p>
+            <ul class="tags" aria-label="Tecnologías">
+              <li>HTML</li><li>CSS</li><li>Responsive</li>
+            </ul>
+            <div class="card-actions">
+              <a class="btn btn-primary" href="#" rel="noopener">Repositorio</a>
+              <a class="btn btn-secondary" href="#" rel="noopener">Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HABILIDADES ===== -->
+    <section class="section" id="habilidades" aria-labelledby="titulo-habilidades">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="titulo-habilidades">Habilidades</h2>
+          <p>Las herramientas y prácticas que uso a diario.</p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Lenguajes</h3>
+            <ul class="tags" aria-label="Lenguajes">
+              <li>HTML5 semántico</li><li>CSS3 (Grid y Flexbox)</li><li>JavaScript ES6+</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Herramientas y metodología</h3>
+            <ul class="tags" aria-label="Herramientas y metodología">
+              <li>Git y GitHub</li><li>Scrum</li><li>DevTools del navegador</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Buenas prácticas</h3>
+            <ul class="tags" aria-label="Buenas prácticas">
+              <li>Accesibilidad</li><li>Diseño responsive</li><li>Código legible</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section class="section section-alt" id="contacto" aria-labelledby="titulo-contacto">
+      <div class="container contact">
+        <div>
+          <h2 id="titulo-contacto">Contacto</h2>
+          <p>¿Tienes una vacante o un proyecto? Escríbeme y te respondo pronto.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:andhresgc@gmail.com">andhresgc@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/andres-felipe-garnica-cadena-463661447" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/andhresgc-hash" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="form-contacto" novalidate>
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" required aria-describedby="error-nombre">
+            <p class="error" id="error-nombre" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" autocomplete="email" required aria-describedby="error-correo">
+            <p class="error" id="error-correo" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required aria-describedby="error-mensaje"></textarea>
+            <p class="error" id="error-mensaje" role="alert"></p>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+          <p class="form-status" id="estado-formulario" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Andrés Felipe Garnica Cadena. Hecho con HTML, CSS y JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
